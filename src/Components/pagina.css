@@ -1,0 +1,14 @@
+.paginaContainer{
+    border: 1px solid black;
+    text-align: center;    
+
+}
+.paginaContainer h3{
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.paginaContainer p{
+    padding: 15px;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}

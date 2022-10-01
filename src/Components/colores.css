@@ -1,0 +1,27 @@
+.colorContainer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.colores{
+    padding: 8px;
+    margin: 4px;
+    border-radius: 8px;
+    width: 15px;
+    height: 15px;
+  
+}
+.colores:nth-child(2){
+    background-color: yellow;
+}
+.colores:nth-child(3){
+    background-color: black;
+}
+.colores:nth-child(4){
+    background-color: red;
+}
+.colores:nth-child(5){
+    background-color: green;
+}
