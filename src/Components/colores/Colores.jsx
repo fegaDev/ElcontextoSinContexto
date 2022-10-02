@@ -1,23 +1,16 @@
-import React,{useContext} from 'react'
 import './colores.css'
-import {Contexto} from '../context/Contexto'
 
-const Colores = () => {
-  const {setColor} = useContext(Contexto);
-
-  const handlEvent = () =>{
-    setColor('#0000ff')
-  }
-  const handlEvent2 = () => {
-    setColor('#000000')
-  }
+const Colores = ({clickRed,clickGreen,clickYellow,clickBlack}) => {
 
   return (
-    <div className="colorsContainer">
-        <button onClick={handlEvent2}>Dark Theme</button>
-        <button onClick={handlEvent}>Light Theme</button>
+    <div className="colorContainer">
+        <h5>Elige tu color:</h5>
+        <div className="colores" onClick={clickYellow}></div>
+        <div className="colores" onClick={clickBlack}></div>
+        <div className="colores" onClick={clickRed}></div>
+        <div className="colores" onClick={clickGreen}></div>
     </div>
   )
 }
 
-export default Colores
+export  default Colores

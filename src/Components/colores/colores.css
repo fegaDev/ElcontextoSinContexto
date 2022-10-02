@@ -1,14 +1,26 @@
-.colorsContainer{
+.colorContainer{
     border: 1px solid black;
+    display: flex;
+    flex-direction: row;
 }
-.colorsContainer button{
+.colorContainer .colores{
     width: 55px;
     height: 48px;
     margin: 5px;
     border-radius: 8px;
     cursor: pointer;
-    transition: transform 0.5s ease-in-out;
+    background-color: red;
 }
-.colorsContainer button:hover{
-    transform: scaleX(0);
+.colorContainer .colores:nth-child(2){
+    background-color: yellow;
+}
+
+.colorContainer .colores:nth-child(3){
+    background-color: black;
+}
+.colorContainer .colores:nth-child(4){
+    background-color: red;
+}
+.colorContainer .colores:nth-child(5){
+    background-color: green;
 }
