@@ -1,0 +1,14 @@
+.colorsContainer{
+    border: 1px solid black;
+}
+.colorsContainer button{
+    width: 55px;
+    height: 48px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.colorsContainer button:hover{
+    transform: scaleX(0);
+}

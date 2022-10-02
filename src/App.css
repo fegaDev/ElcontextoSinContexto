@@ -1,6 +1,7 @@
 .App{
     display: flex;
-    flex-direction: row;
-    width: 90%;
-    border: 1px solid black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

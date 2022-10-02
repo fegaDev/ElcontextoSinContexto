@@ -1,0 +1,10 @@
+.footerContainer h6{
+    font-size: 22px;
+    color: crimson;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footerContainer p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkkhaki;
+    text-shadow: 0px 1px 1px black;
+}
